@@ -121,7 +121,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
     use:
-      - ALL
+      - All
 
   - name: YouTube
     type: select
