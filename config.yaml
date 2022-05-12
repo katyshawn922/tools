@@ -10,7 +10,7 @@ proxy-providers:
 
   All: &All 
     type: http
-    url: "订阅链接填在&号前面&list=true&udp=true"
+    url: "订阅链接填在"&list"前面&list=true&udp=true"
     interval: 86400
     path: ./all.yaml
     health-check:
