@@ -115,8 +115,8 @@ proxy-groups:
   - name: Telegram
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-    proxies:
-      *G
+    use:
+      - ALL
 
   - name: YouTube
     type: select
