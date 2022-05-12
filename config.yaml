@@ -106,12 +106,6 @@ proxy-groups:
     proxies: &G
       - Auto
 
-  - name: China
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
-    proxies: &C
-      - DIRECT
-      
   - name: YouTube
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
@@ -141,6 +135,12 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
     proxies:
       *G
+
+  - name: China
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
+    proxies: &C
+      - DIRECT
 
   - name: AdBlock
     type: select
