@@ -10,7 +10,7 @@ proxy-providers:
 
   All: &All 
     type: http
-    url: "&list=true&udp=true"
+    url: "订阅链接填在&号前面&list=true&udp=true"
     interval: 86400
     path: ./all.yaml
     health-check:
@@ -156,7 +156,7 @@ proxy-groups:
 
 rule-providers:
 
- Direct:
+  Direct:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
@@ -234,7 +234,7 @@ rules:
   - RULE-SET,Disney,Disney+
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Global,Gloabl
+  - RULE-SET,Global,Global
   - RULE-SET,China,China
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,China
